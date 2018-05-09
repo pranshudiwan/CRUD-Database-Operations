@@ -1,0 +1,125 @@
+body {
+	text-align: center;
+	background-image: url("C://Users//Pranshud//Desktop//a.jpg");
+	font-family: sans-serif;
+}
+
+input[type=text] {
+	width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	box-shadow: 0px 1px 23px -8px rgba(0, 0, 0, 0.73);
+}
+
+input[type=text]:focus {
+    width: 60%;
+}
+
+#drop {
+	width: 20%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+	box-shadow: 0px 1px 23px -8px rgba(0, 0, 0, 0.73);
+}
+
+input[type=submit] {
+	width: 20%;
+	background-color: #020202;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	margin: 8px 0;
+	display: inline-block;
+	box-shadow: 2px 2px 2px grey;
+}
+input[type=submit]:hover {
+	opacity: 0.70;
+}
+table {
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+}
+td {
+	text-align: center;
+	align: center;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+th {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 8px;
+}
+.box1 {
+	width: 70%;
+	height: auto;
+	border-size: 10px;
+	border-style: solid;
+	border-color: black;
+	font-family: sans-serif;
+	padding-left: 30px;
+	padding-top: 35px;
+	padding-right: 30px;
+	padding-bottom: 35px;
+	box-sizing: border-box;
+	background-image: url("a.jpg");
+	position: relative;
+	left: 15%;
+	top: 20%;
+	border-radius: 20px;
+}
+.main-nav {
+        background: #101010;
+        position: fixed;
+        float: left;
+        left: 0%;
+        top: 0%; 
+        width: 100%;
+        height: 50px;
+        z-index: 150;
+      }
+
+.main-nav a {
+		font-size: 0.95em;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        display: inline-block;
+        margin: 17px 17px;
+      }
+
+.main-nav a:hover {
+        opacity: 0.75;
+      }
+
+.box2 {
+	width: 70%;
+	height: auto;
+	border-size: 10px;
+	border-style: solid;
+	border-color: black;
+	font-family: sans-serif;
+	padding-left: 30px;
+	padding-top: 35px;
+	padding-right: 30px;
+	padding-bottom: 35px;
+	box-sizing: border-box;
+	background-image: url("a.jpg");
+	position: relative;
+	left: 15%;
+	top: 50%;
+	border-radius: 20px;
+}
