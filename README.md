@@ -14,3 +14,5 @@ What this does:
 4. Modifications in the database can be done on the same page itself.
 
 It is a MVC application and uses HSQLDb (Hyper Sql database) 
+
+This project was done by me during my internship at Hexaware in June 2017.
